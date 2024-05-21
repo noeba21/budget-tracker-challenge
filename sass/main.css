@@ -1,0 +1,56 @@
+body {
+  font-family: Oswald;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #202632;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #202632;
+  border-radius: 10px;
+}
+
+h1 {
+  color: green;
+}
+
+.budget-summary, .input-fields, .entries {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #f8f9fa;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: green;
+  color: #202632;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #004d00;
+}
+
+.entries h2 {
+  margin-top: 0;
+}
+.entries ul {
+  list-style: none;
+  padding: 0;
+}
+.entries ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+  border-left: 5px solid green;
+}/*# sourceMappingURL=main.css.map */

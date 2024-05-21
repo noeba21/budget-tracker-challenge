@@ -1,4 +1,6 @@
-$primary-color: #3498db;
+$primary-color: green;
+$secondary-color: #202632;
+$third-color: #f8f9fa;
 $hover-color: darken($primary-color, 10%);
 
 @mixin gradient($color1, $color2) {
@@ -6,20 +8,20 @@ $hover-color: darken($primary-color, 10%);
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Oswald;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: $third-color;
+    color: $secondary-color;
 }
 
 .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -33,14 +35,14 @@ h1 {
 input {
     padding: 10px;
     margin-right: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid $third-color;
     border-radius: 5px;
 }
 
 button {
     padding: 10px;
     background-color: $primary-color;
-    color: #fff;
+    color: $secondary-color;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -62,7 +64,7 @@ button {
         li {
             padding: 10px;
             margin-bottom: 10px;
-            background-color: #f9f9f9;
+            background-color: $third-color;
             border-left: 5px solid $primary-color;
         }
     }
